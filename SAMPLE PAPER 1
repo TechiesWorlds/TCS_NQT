@@ -1,0 +1,552 @@
+TCS NQT Aptitude Paper
+1. A two digit number is 18 less than the square of the sum of its digits. How many such numbers
+are there?
+(1) 1
+(2) 2
+(3) 3
+(4) 4
+Ans: Option 2
+Take N = 10a+b.
+Given that, (10a+b)+18 = K2 = (a+b)2
+Given number = K2
+- 18 = (10a+b)
+That means, when we add 18 to the given number it should be a perfect square. So K2 takes the
+following values. 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, ....
+1 to 16 are ruled out as if we subtract 18 from them, the resulting number is a single digit number.
+Now 25 - 18 = 7
+36 - 18 = 18
+49 - 18 = 31
+64 - 18 = 46
+81 - 18 = 63
+100 - 18 = 82
+121 - 18 = 103
+Now 63, 82 satisfies.
+2. A two digit number is 18 less than the sum of the squares of its digits. How many such
+numbers are there?
+(1) 1
+(2) 2
+(3) 3
+(4) 4
+Ans: Option 2
+Only 47 and 67 satisfy the condition
+3. For real number x, int(x) denotes integer part of x.int(x) is the largest integer less than or equal to
+x.int(1,2)=1,int(-2,4)=-3. Find the value of int(1/2)+int(1/2+ 100)+int(1/2+2/100)+. ..+int(1/2+99/100)
+Sol: int (1/2) = 0
+int (1/2 + 100 ) = 100
+into (1/2 + 2/100) = 0
+......
+int ( 1/2 + 50/100 ) = 1
+int (1/2 + 51 /100) = 1
+.......
+int (1/2 + 99/100) = 1
+So 100 + 1 + 1 + .....50 times = 150
+4. Given a square of length 2m. Its corners are cut such that to represent a regular octagon. Find
+the length of side of octagon
+Sol:
+Let x is the side of the octagon and x + 2y is the side of the square.
+In the given octagon,
+5. Find the number of ways a batsman can score a double century only in terms of 4's & 6's?
+Assume the batsman scored x 4's and y 6's.
+4x + 6y = 200
+⇒
+2
+x
++
+3
+y
+=
+100
+⇒2x+3y=100
+⇒
+x
+=
+100
+−
+3
+y
+2
+=
+50
+−
+3
+2
+y
+⇒x=100−3y2=50−32y
+As x is an integer, y should be a multiple of 2.
+If
+y = 0, x = 50
+y = 2, x = 47
+y = 4, x = 44
+...
+y = 32, x = 2
+So total ways are (32-0)/2 + 1 = 17 ( if 0 6's are possible) otherwise 16
+6. 5000 voted in an election between two candidates.14% of the votes were invalid.The winner won
+by a margin approximately closer to 15%.Find the number of votes secured by the person
+Invalid Votes = 14 % (5000) = 700
+Valid Votes = 5000 - 700 = 4300 = R (say)
+Assume the looser got 'L" votes and winner got "W" votes.
+W - L = 15% (R)
+W + L = R
+Solving we get W = 57.5% and L = 42.5%
+So Winner got 57.5%(4300) = 2472
+7. There are 100 wine glasses. I offered my servant to 3 paise for every broken glass to be
+delivered safely and forfeit 9 paisa for every glass broken at the end of day. He recieved Rs.2.40
+.how many glass did he break.
+a. 20 b. 73 c. 5 d. 8
+If a glass has been broken, he has to loose 3 paisa + 9 paise = 12 paise
+Assume K glasses got broken
+100 x 3 - 12 x K = 240
+⇒
+K
+=
+5
+⇒K=5
+8. A is 20 percent more efficient than B. If the two person can complete a piece of work in 60
+days.in how many days. A working alone can complete the work
+a. 80 b. 90 c. 100 d. 110
+As A is 20% more efficient than B, If B's per day work is 100 units then A's 120.
+Both persons together completes (100 + 120) units = 220 units a day.
+They took 60 days to complete the work. So total work = 60 x 220
+If A alone set to complete the work, he takes =
+60
+×
+220
+120
+=
+110
+60×220120=110
+days
+9. A property was originally on a 99 years lease and two thirds of the time passed is equal to the four
+fifth of the time to come.how many years are there to go.
+a. 45 b. 50 c. 60 d. 55
+Assume x years have passed and y years to go
+Given
+2
+3
+x
+=
+4
+5
+y
+23x=45y
+⇒
+x
+=
+3
+2
+×
+4
+5
+y
+=
+6
+5
+y
+⇒x=32×45y=65y
+But x + y = 99
+So
+6
+5
+y
++
+y
+=
+99
+65y+y=99
+Solving we get y = 45 years
+10. In how many different ways can the letters of the word "LEADING" be arranged in such a way
+that the vowels come together
+11. a. 360
+b. 720
+c. 480
+d. 5040
+Given letters are A, E, I, D, L, N, G
+Of which AEI are vowels. Let us combine them into a single letter x. Now total letters are x, D, L, N,
+G
+These letter are arranged in 5! ways. But 3 vowels can arrange themselves in 3! ways. So total
+ways 5! x 3! = 720
+12. There is a plane contains 32 points.all the 32 points have equal distance from point x. which of
+the following is true .
+a. all 32 points lie in circle
+b. the distance from x to all 32 points is less than the distance between each other
+c. both a and b
+d. none of these
+Sol: Option 3
+X must be the center of the circle and 32 points are on the circumference. So Option A is correct
+Number of diagnols of a regular polygon =
+n
+(
+n
+−
+3
+)
+2
+n(n−3)2
+So for a polygon of 32 sides, Number of diagnols = 464. Now the minimum distance between any
+two points =
+2
+π
+r
+32
+=
+11
+56
+r
+2πr32=1156r
+Now total lengh of all the distances from 32 points =
+2
+π
+r
+2πr
++ Sum of the lengths of all the 464 diagnols.
+Sum of the lengths of x to all the 32 points = 32 radius = 32r
+But the 464 diagnols have 16 diameters connecting 2 oposite points connecting via center. So Sum
+of the lengths of distances from point to point is clearly greater than sum of the length from x to all 32
+ponts. Option B is correct
+Correct Option 3
+For more questions, visit Recruitmentindia.in
+13. When asked what the time is,a person answered that the amount of time left is 1/5 of the time
+already completed.what is the time.
+1. 8 pm
+2. 8 am
+3. 12 pm
+4. 12 am
+Sol: A day has 24 hrs. Assume x hours have passed. Remaining time is (24 - x)
+24
+−
+x
+=
+1
+5
+x
+⇒
+x
+=
+20
+24−x=15x⇒x=20
+Time is 8 PM
+13. Perimeter of the backwheel =9 feet,front wheel=7 feet on a certain distance ,the front wheel gets
+10 revolution more than the back wheel.what is the distance
+Let the backwheel made x revolutions then front wheel makes x + 10
+x x 9 = (x + 10) x 7
+x = 35
+So distance traveled = 35 x 9 = 315
+14. There are 2 groups named brown and red. They can n't marry in the same group. If the husband
+or wife dies then the person will revert to their own group. If a person is married then the husband
+will have to change his group to his wife's group. Children will own the mother's group. If man is red
+then his mother's brother belong to which group if he is married
+a. red
+b. brown
+c. red and brown
+d. none
+Option: b
+If a man is Red, his mother must be red, his mothers brother also red but after marriage, he gets
+converted to Brown.
+15. A rectangular park 60 m long and 40 m wide has concrete crossroads running in the middle of
+the park and rest of the park has been used as a lawn.if the area of the lawn is 2109 sq.m,then what
+is the width of the road.
+a. 2.91 m
+b. 3m
+c. 5.82 m
+d. none
+Option : B
+Let us shift the path to the left hand side and top. This does not change the area of the lawn.
+Now lawn area = (60 - x) (40 - x)
+for x = 3, we get lawn area = 2109.
+GENERAL ENGLISH
+1. Against each key word are given four suggested meanings. Choose the word or phrase which is nearest in meaning
+to the key word.
+ANTAGONIST:
+(1) Hostile (2) Pluralistic
+(3) Mockery (4) Aghast
+2. Against each key word are given four suggested meanings. Choose the word or phrase which is nearest in meaning
+to the key word.
+APPERTAIN:
+(1) Give up (2) Offence
+(3) To be Appropriate (4) Thankful
+3. Read the sentence and choose the antonyms of the Underlined Word among the alternative words or phrases as (1),
+(2), (3) and (4).
+Ram is showing signs of senility.
+(1) Virility (2) Laziness
+(3) Maturity (4) Exhaustion
+4. Read the sentence and choose the antonyms of the Underlined Word among the alternative words or phrases as (1),
+(2), (3) and (4).
+The superintendent looked very grumpy.
+(1) Surly (2) Pleasant
+(3) Efficient (4) Honest
+5. Against each key word are given four suggested meanings. Choose the word or phrase which is opposite in meaning
+to the key word.
+LURID:
+(1) Murky (2) Dismal
+(3) Ignorant (4) Mild
+6. Against each key word are given four suggested meanings. Choose the word or phrase which is opposite in meaning
+to the key word.
+MANIFEST:
+(1) Unmistakable (2) Apparent
+(3) Obscure (4) Irrelavant
+7. Choose the word that is nearest in meaning to the capitalised word.
+ABASE:
+(1) Humiliate or degrade oneslef (2) Uncouth
+(3) Baseless (4) Forceful
+8. Choose the word that is nearest in meaning to the capitalised word.
+SHAM:
+(1) Rubbish (2) Lovable
+(3) Pretence (4) Guilty
+9. In the following question pick the wrong spelt word.
+(1) Autopsy (2) Autocratic
+(3) Akward (4) Asylum
+10. In the following question pick the wrong spelt word.
+(1) Abnormity
+(2) Aberration
+(3) Abstinant
+(4) Abstention
+GE02 SET02P-II [808594 ] [A–1]
+DIRECTIONS: (Question No. 11 to 15) Read the passage and give your response based on the passage.
+PASSAGE
+Drug addicts in some countries form small groups, the customs of which may be unknown to outsiders. They often speak a
+language that is so full of expressions and words created by themselves that their speech has become unintelligible to those that
+are not living, or in some way associated, with them. It is amazing to find that, to understand some of today's so-called pop music,
+one requires some acquaintance with the peculiar language of those enslaved to drugs. A great part of the vocabulary is
+international with a preponderance of American terms or corruptions of these. This makes it easy for those in search of drug in a
+country not their own to communicate with those that have some to dispose of.
+11. We learn from the passage that:
+(1) All pop singers like drugs
+(2) Many pop musicians often use the code language of drug addicts
+(3) Pop music is understood by drug users only
+(4) All drug users compose music
+12. The drug users' speech is unintelligible to other because:
+(1) It is incoherent (2) The use of drugs has affected their pronunciation
+(3) Their language has peculiar words and expressions (4) They communicate only among themselves
+13. Drug addicts:
+(1) Get easily assimilated in the society in which they live
+(2) Have their own culture
+(3) Imitate American culture
+(4) Are cultural American culture
+14. The international nature of their vocabulary helps drug addicts to:
+(1) Buy drugs from one another with ease (2) Get to know one another better
+(3) Pass for Americans (4) Conceal their nationalities
+15. According to the passage, it is wrong to conclude that:
+(1) Drug users have evolved a language
+(2) Drug users form small groups
+(3) Some drug users travel outside their own countries
+(4) All drug addicts are Americans
+DIRECTIONS: (Question No. 16 & 17) In the following sentences one or two words are missing. From the four choices select the
+choice that fits in best with the rest of the sentence.
+16. Mr. Nehru's speeches always brought out his ....... for India and the well being of its ...........:
+(1) Sadness, forests (2) Greatness, residents
+(3) Joy, land (4) Love, people
+17. Men with great ........ and knowledge are usually very polite and ........:
+(1) Wisdom, humble (2) Ambition, obsure
+(3) Wealth, cruel (4) Foresight, sad
+DIRECTIONS: (Question No. 18 to 20) In the following questions, fill in the blanks by selecting a choice which is in keeping with
+good English usage.
+18. The friend writes faster ..........:
+(1) Than me (2) Than myself
+(3) Than I (4) Than self
+19. ......... the grace of God we all reach safe and sound:
+(1) By (2) Due
+(3) On (4) From
+20. The courier company luckily delivered the letter ........:
+(1) Rightly on time (2) Right on time
+(3) On right time (4) Right by time
+GE02 SET02P-II [808594 ] [A–2]
+DIRECTIONS: (Question no. 21 to 24) In the questions choose the correct alternative answer to complete the sentence.
+21. He requested her ........ five rupees:
+(1) To lend her (2) To borrow her
+(3) To lend him (4) To borrow him
+22. I first ........ him in 1966:
+(1) Meet
+(2) Have met
+(3) Met
+(4) Had met
+23. Some friends ........ to meet me tomorrow:
+(1) Come
+(2) Have come
+(3) Came
+(4) Are coming
+24. She was ........ that she could not sleep:
+(1) Very excited
+(2) Much excited
+(3) Too excited
+(4) So excited
+25. The doctor soon diagnosed the patient's illness. In this sentence 'diagnosed' means:
+(1) Cured
+(2) Provided the medicine for
+(3) Treated
+(4) Decided on the nature of
+DIRECTIONS: (Question No. 26 to 28) In each of these questions, four words numbered (1), (2), (3) and (4) have been given of
+which one may be wrongly spelt. The number of that word is your answer.
+26.
+(1) Marshalling (2) Nemesis
+(3) Pedestrian (4) Sheckle
+27.
+(1) Sorority
+(2) Terrestrial
+(3) Magnification
+(4) Habbitation
+28.
+(1) Gynacology
+(2) Habitual
+(3) Inheritance
+(4) Manipulative
+29. Given below are the four spellings of the same word. Choose the correct one.
+(1) Anoynymous
+(2) Anonemous
+(3) Anonymous
+(4) Annonymous
+30. In the following question select the appropriate word that best represents the given set of words.
+A person whose thoughts are turned inwards:
+(1) Extrovert
+(2) Invertebrate
+(3) Intelligent
+(4) Introvert
+GE02 SET02P-II [808594 ] [A–3]
+DIRECTIONS: (Question No. 31 to 33) Pick out the most effective word from the given words to fill in the blank to make the
+sentence meaningfully complete.
+31. He gave me a ......... by appearing suddenly in the dark:
+(1) Scare (2) Dash
+(3) Jolt (4) Curse
+32. He was punished for the ......... of his duty:
+(1) Criticism (2) Dereliction
+(3) Immaturity (4) Percolation
+33. The old lady ......... her son when he returned triumphantly from the war:
+(1) Hugged
+(2) Proclaimed
+(3) Pronounced
+(4) Banged
+34. Fill in the blanks.
+In a classroom students are to be trained to love ......:
+(1) Each other
+(2) All others
+(3) One another
+(4) Altogether
+35. Fill in the blanks.
+Walk properly ....... you should fall:
+(1) Just
+(2) Lest
+(3) Must
+(4) Otherwise
+DIRECTIONS: (Question No. 36 to 39) The words of proverbs and sentences are given in a jumbled manner. If the words are
+arranged properly, they make a readable sentence. Pick a choice which gives the correct sequence of words.
+36. Death, before, times, their, cowards, many, die
+1 2 3 4 5 6 7
+(1) 2431756 (2) 4657123
+(3) 5763241 (4) 6375124
+37. Memory, liar, a, a, good, needs:
+1 2 3 4 5 6
+(1) 326451 (2) 464251
+(3) 524461 (4) 165234
+38. Burnt, fire, a, child, dreads, the:
+1 2 3 4 5 6
+(1) 314562 (2) 314265
+(3) 624135 (4) 246531
+39. Of, mind, face, is, index, the:
+1 2 3 4 5 6
+(1) 132456 (2) 634215
+(3) 345162 (4) 534216
+40. Given below are the four spellings of the same word. Choose the correct one.
+(1) Mistery
+(2) Mistrey
+(3) Mystery
+(4) Mistry
+GE02 SET02P-II [808594 ] [A–4]
+DIRECTIONS: (Question No. 41 to 43) Each of the following idioms is followed by alternative meanings of which one is correct.
+Write the correct option.
+41. Put a person through his paces:
+(1) Put him on the right track
+(2) Make him quicken steps
+(3) Test his abilities
+(4) Inspire him to work hard
+42. A storm in a tea cup:
+(1) Great noise
+(2) A danger signal
+(3) Unexpected event
+(4) Much excitement over something trivial
+43. A square peg in a round hole:
+(1) A person unsuited to the position he fills
+(2) A scheme that never works
+(3) An impossible task
+(4) A Herculean task
+DIRECTIONS: (Question No. 44 & 45) In this section each sentence has three parts indicated by (1), (2) and (3). Read each
+sentence to find out whether there is an error. If you find an error in any one of the parts (1), (2) and (3) indicate your response by
+blackening the letter related to that part in the OMR sheet provided. If sentence has no error, indicate this by blackening (4) which
+stands for no error. Errors may belong to grammar, usage etc.
+44. I dare (1)/ not to (2)/ go to my father (3)/ No error (4).
+45. I get up at five (1)/ and studied for two hours. (2)/ After taking a bath, I took breakfast. Then, I went to school on my
+bike (3)/ No error (4).
+46. Which of the following will sting?
+(1) Dog
+(2) Scorpion
+(3) Cat
+(4) Lizard
+47. Fill in the blank with correct preposition.
+Shivansh is good …….. studies:
+(1) At (2) In
+(3) Towards (4) By
+48. Given below is the sentence in active voice. Choose the correct sentence in passive voice among the alternatives:
+Could they not have helped the needy?
+(1) Could the needy not have been helped by them?
+(2) Had the needy been not helped by them?
+(3) Could the needy had not been helped by them?
+(4) Would the needy not have been helped by them?
+49. What shall be correct combination of two simple sentence into a complex sentence by using an adverb clause.
+The chief guest entered the hall. The audience clapped.
+(1) The audience clapped as the chief guest entered the hall
+(2) The audience clapped upon the chief guest entering the hall
+(3) The audience was clapping when the chief guest entered the hall
+(4) The audience had to clap when the chief guest entered the hall
+50. Fill in the gap with suitable preposition:
+Sita is indifferent ____ her health.
+(1) To (2) Of
+(3) From (4) By
+GE02 SET02P-II [808594 ] [A–5]
+51. Identify the correct tense which has been used in this sentence.
+By the end of this year he will have saved a lot of money.
+(1) Future continuous tense
+(2) Future perfect tense
+(3) Future perfect continuous tense
+(4) Simple future tense
+52. Fill in the blank using correct article.
+Kalidas is ____ Shakespeare of India.
+(1) A
+(2) An
+(3) The
+(4) Any one of the above can be used
+53. Identify plural word among the following alternatives:
+(1) Syllabus (2) Curriculum
+(3) Agenda (4) Radius
+54. Given are four sentences. Choose the sentence which belongs to the class “Adverb of manner”
+(1) She sings delightfully (2) The Weather is delightfully cool
+(3) He is far better now (4) I have told you twice
+55. Identify the sentence with no adverb:
+(1) He behaves best (2) She sings well enough
+(3) He is the best boy in the class (4) The patient is much better.
+56. Change the following sentence given in indirect speech into direct speech and mark correct answer choosing from
+options given.
+“Would you mind passing the salt?” I said to him:
+(1) I asked to him if he would mind passing the salt
+(2) I ordered him if he will mind passing the salt
+(3) I asked him if he will mind passing the salt
+(4) I asked him if he would mind passing the salt
+57. In the following question four sentences have been given. Out of the four options given one is grammatically
+incorrect. Identify the one and mark your answer.
+(1) She seems sad (2) He has a cellular phone
+(3) These grapes are tasting sour (4) I think you are wrong
+58. Change the following sentence into Indirect speech:
+He said, “Be quiet and listen to my word”.
+(1) He requested them that they keep quiet and listen to his word.
+(2) He requested them to maintain quiet and listen to his word.
+(3) He urged them to be quiet and listen to his word.
+(4) He said to them to keep quiet and listen to his word.
+59. Change the sentence into indirect speech.
+Ram said to the boy, “why will you not play with me?”
+(1) Ram said the boy why he will not play with me?
+(2) Ram asked the boy why he would not play with him.
+(3) Ram told the boy to play with him.
+(4) Ram asked the boy why will hot play with me.
+60. Change the following sentence into reported speech and mark the correct option among the choices given:
+The girl said, “ I must go to Delhi tomorrow”.
+(1) The girl said that she would go to Delhi tomorrow.
+(2) The girl said that she had to go to Delhi the next day.
+(3) The girl said that she will go to Delhi the next day.
+(4) The girl said that she must have gone to Delhi that day. 
